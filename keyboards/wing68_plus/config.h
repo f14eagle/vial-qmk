@@ -37,7 +37,7 @@
 #define RGB_DI_PIN B5
 #define RGBLED_NUM 16
 
-#define RGBLIGHT_ANIMATIONS
+//#define RGBLIGHT_ANIMATIONS
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
