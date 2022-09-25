@@ -46,6 +46,10 @@
 
 #define ONESHOT_TIMEOUT 500
 
+#define VIAL_KEYBOARD_UID {0x60, 0xD7, 0xDF, 0x41, 0x4B, 0x38, 0x67, 0xB5}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 3, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 0, 13 }
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
