@@ -1,4 +1,4 @@
-#include "wingxsl_plus.h"
+#include "wingxs_plus.h"
 
 void uart_init(void) {
 	SERIAL_UART_INIT();
