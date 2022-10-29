@@ -123,7 +123,7 @@ uint8_t matrix_scan(void)
         // 0x3C000 = pad mask
         for (uint8_t i = 0; i < MATRIX_ROWS; i++) {
             //matrix[i] = (uint16_t) uart_data[i*2] | (uint16_t) uart_data[i*2+1] << 7 | (matrix[i] & 0x3C000);
-            matrix[i] = (uint16_t) uart_data[i*2] | (uint16_t) uart_data[i*2+1] << 7 | (uint32_t) uart_data[i+10] << 14;
+            matrix[i] = (uint16_t) uart_data[i*2] | (uint16_t) uart_data[i*2+1] << 7 | (uint32_t) uart_data[i+14] << 14;
         }
     }
 
