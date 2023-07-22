@@ -26,6 +26,8 @@
 #define MANUFACTURER    F14eagle
 #define PRODUCT         Wing82 Plus
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
+
 /* key matrix size */
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 18
