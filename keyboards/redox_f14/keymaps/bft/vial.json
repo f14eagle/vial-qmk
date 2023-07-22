@@ -1,7 +1,7 @@
 {
     "name": "WingXX",
     "vendorId": "0xFEED",
-    "productId": "0x2166",
+    "productId": "0x6060",
     "lighting": "none",
     "matrix": { "rows": 5, "cols": 14 },
     "layouts": {

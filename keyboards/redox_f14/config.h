@@ -23,8 +23,8 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Mattia Dal Ben
-#define PRODUCT         Redox_wireless
+#define MANUFACTURER    F14eagle
+#define PRODUCT         WingXX
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -37,6 +37,10 @@
 //#define BACKLIGHT_LEVELS 3
 
 #define ONESHOT_TIMEOUT 500
+
+#define VIAL_KEYBOARD_UID {0x8B, 0xF7, 0xAA, 0xCE, 0x7D, 0xA2, 0xAE, 0x26}
+#define VIAL_UNLOCK_COMBO_ROWS { 1, 3, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 0, 12 }
 
 /*
  * Feature disable options
